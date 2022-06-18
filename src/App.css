@@ -388,7 +388,7 @@ nav ul li a:hover {
   background-color: black;
   color: white;
   height: 63vh;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .contactIcon {
