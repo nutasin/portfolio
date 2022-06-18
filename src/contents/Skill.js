@@ -16,10 +16,10 @@ class Skill extends Component {
                 <h1 className='subTopic'>SKILLS</h1>
                 <div className='condiv skill'>
                     <div className='row skillRow'>
-                        <div className='col-3 ulExpSkill'>
+                        <div className='col-md-3 ulExpSkill'>
                         <label id='labelSkill'>Experienced Skills</label>
                         </div>
-                        <div className='col-9'>
+                        <div className='col-md-9'>
                             <ul className='ulExpSkill'>
                                 <li>
                                     <div className='row rowBox'>
@@ -117,12 +117,12 @@ class Skill extends Component {
                         </div>
 
                     </div>
-                    <div className='row skillRow'>
-                        <div className='col-3 ulPractice'>
+                    <div className='row skillRow2'>
+                        <div className='col-md-3 '>
                         <label id='labelSkill'>Skills being practiced</label>
                         </div>
-                        <div className='col-9'>
-                        <ul className='ulPractice'>
+                        <div className='col-md-9'>
+                        <ul className=''>
                                 <li>
                                     <div className='row rowBox'>
                                         <img src={require('../img/react.png')} alt='profile' className='iconPic' />
